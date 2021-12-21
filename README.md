@@ -6,7 +6,7 @@
 ##Results of the Analysis
 - Balanced Acuracy 
   - RandomOverSampler 
-  - 
+  - ![analysis]()
   - SMOTE
   - ClusterCentroids
   - SMOTEENN
