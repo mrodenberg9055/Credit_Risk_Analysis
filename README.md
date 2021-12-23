@@ -20,7 +20,7 @@
 - ![analysis](https://github.com/mrodenberg9055/Credit_Risk_Analysis/blob/main/Resources/EasyEnsembleClassifier.PNG)
 
 ### Precision and recall scores
+- The precision scores across all the different models were very similar, little if any change between them and it was always very high.  The recall was where we saw the biggest difference from model to model.  For the RandomOverSampler, SMOTE and SMOTEEN models the avg score was between .60 and .69, moving into the ClusterCentroids model where that number drops to .40.  Looking at the other models we see a significant jump to .88 for the BalancedRandomForestClassifier and the highest number at .94 for the EasyEnsembleClassifier model.  
 
 Summary: 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. 
-If you do not recommend any of the models, justify your reasoning.
+- I would make the recommendation that we use the EasyEnsembleClassifier model for the reasons that the balanced accuracy score were the highest out of any of the models we tested.  As well as it having the highest precision and recall as well.  We can assume that this model will return many results with those results being labeled correctly based on these scores.  
